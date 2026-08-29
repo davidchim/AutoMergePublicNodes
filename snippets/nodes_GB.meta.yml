@@ -36,3 +36,40 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
+- name: 🇬🇧GB_1|2.6MB/s
+  password: None
+  port: 3118
+  server: 154.61.56.215
+  type: http
+  username: null
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_2|2.2MB/s
+  network: tcp
+  port: '51847'
+  reality-opts:
+    public-key: S6noV0L8eNASnTe1gXLutLZNdfENsvKMsOJiGQYi6nc
+    short-id: '!!str 0eec442e7b34d2f2'
+  server: 3.9.135.156
+  servername: www.tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 391a01e9-b664-407b-9158-610fab3f5920
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_3|2.7MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: OINuDFEDTdmtFR8QRxAZfQIMPA-wJxfGN1LjB3TFUHo
+    short-id: '!!str 535a3304'
+  server: 50.7.193.131
+  servername: app5.jarvesitw.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec537bff-dc14-495c-b65f-65393ad7ee75
+  xudp: true
