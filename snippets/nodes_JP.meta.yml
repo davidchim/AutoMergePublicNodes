@@ -62,128 +62,120 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇯🇵JP_1|3.6MB/s
+  name: 🇯🇵JP_1|5.9MB/s
   network: tcp
-  port: '18921'
+  port: 35229
   reality-opts:
-    public-key: Ct9tvt4V8JSZ7uCbKWKuXNMG5Q7U_FMDWPHgi4YHAXw
-    short-id: '!!str 2e23c31063fcff'
-  server: 54.249.200.131
+    public-key: JKEgmSckzu3wmGo2_wl8Xij0-PsE8QOvrEO6jS8IfFY
+    short-id: '!!str 0056222303'
+  server: 13.231.69.194
   servername: www.nvidia.com
   tls: true
   type: vless
   udp: true
-  uuid: fe113f0b-43fa-4662-9403-9f91b53fed1f
+  uuid: caaa44ad-b3d5-4f55-9507-5b57942f6922
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP_2|1.4MB/s
+  network: ws
+  port: 16617
+  server: p4.cnb.linuxlh.xin
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6ee2a7ba-cd92-427f-ac4f-2f8d284e316c
+  ws-opts:
+    headers:
+      Host: 5b22547ba5cc9b83a7a9534b4a7cf9ea.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇯🇵JP_3|5.5MB/s
+  network: grpc
+  port: 10033
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: jp3-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇯🇵JP_4|3.4MB/s
+  network: grpc
+  port: 10032
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: jp2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+- auth: 901113fb-2ddd-4472-84bf-307de471f32f
+  name: 🇯🇵JP_5|2.0MB/s
+  password: 901113fb-2ddd-4472-84bf-307de471f32f
+  port: 443
+  server: jp.katanalink.net
+  skip-cert-verify: true
+  sni: jp.katanalink.net
+  type: hysteria2
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_6|4.0MB/s
+  network: tcp
+  port: '15007'
+  reality-opts:
+    public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
+    short-id: '!!str 2c4d005b'
+  server: 82.38.46.66
+  servername: www.bing.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
   xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇯🇵JP_2|2.5MB/s
+  name: 🇯🇵JP_7|5.3MB/s
   network: tcp
-  port: '59497'
+  port: '47571'
   reality-opts:
-    public-key: l7ImR_EgkkLJ4BkITf0eHQcOazxENAz4EL8pQ1k5lko
-    short-id: '!!str d1d28c01d2c3c6'
-  server: 54.178.54.169
+    public-key: OyfEDzOiDM5eMvTacJ4bVhF1V0QZgvz-vP3K456l3W4
+    short-id: '!!str 4c8b46e500b0f3ad'
+  server: 35.78.59.6
   servername: www.amd.com
   tls: true
   type: vless
   udp: true
-  uuid: 2c178adb-54c2-4eaa-8e30-1322d17922c4
+  uuid: 88a67610-b7ae-42ba-8af0-29cfa54cef37
   xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_3|4.3MB/s
-  network: tcp
-  port: '25892'
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇯🇵JP_8|5.5MB/s
+  network: grpc
+  port: 10036
   reality-opts:
-    public-key: 20EMD5w9RCv9W_MtV6PfJAcKwSUpRfdQ_uA_UBHggRE
-    short-id: '!!str 9b0f012413fd'
-  server: 52.68.64.80
-  servername: www.sony.com
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: jp6-r.link-t7.com
+  servername: s0.awsstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: 31d84170-673e-4653-afaf-0656656be6dc
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_4|5.2MB/s
-  network: tcp
-  port: '14422'
-  reality-opts:
-    public-key: WA02heAP6997PPTwF6hbbFXwbYmXRz1bH2ZXWk6ipEw
-    short-id: '!!str 9b0f012413fd'
-  server: 13.113.195.74
-  servername: www.tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75f0b53b-ff3b-483a-b25e-5269b0229d14
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_5|1017KB/s
-  network: tcp
-  port: '58573'
-  reality-opts:
-    public-key: P_qGsMinT163P1KLO6LzedQXEeHimWQ1CrqM4cYkFB8
-    short-id: '!!str 4de17b381e6af2'
-  server: 13.230.140.251
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ea3fb423-d86c-461a-9610-cbad189253e2
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_6|5.8MB/s
-  network: tcp
-  port: '56449'
-  reality-opts:
-    public-key: anIR48iTD0Inl1z85396AwMvDhcx9y25DdFsVR896DE
-    short-id: '!!str 25a9435577670327'
-  server: 52.194.211.43
-  servername: www.intel.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fe855f99-4eb5-4a80-ad48-354649ff1305
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_7|5.1MB/s
-  network: tcp
-  port: '36024'
-  reality-opts:
-    public-key: z1IzZjwLcymnYShSSGE6NkK10-S6aIGbe1_qQotmplU
-    short-id: '!!str d1d28c01d2c3c6'
-  server: 3.112.129.179
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ad407b1-b8f3-4591-ae75-05cf4035e09e
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_8|5.7MB/s
-  network: tcp
-  port: '16611'
-  reality-opts:
-    public-key: cDzA5Efsd52LehcCFXh9bS3eCuj7HQZwau-yjPqLPgQ
-    short-id: '!!str 701b0c5c9dee514d'
-  server: 13.114.89.187
-  servername: www.intel.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 059fbe5b-21dc-413f-8f5c-dac39201914c
-  xudp: true
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31

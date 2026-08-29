@@ -9,30 +9,3 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- auth: 41f0d6d3-4a45-4635-8225-2abd2284189b
-  name: 🇷🇺RU_1|2.6MB/s
-  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
-  port: 2056
-  server: els2.mangshe.xyz
-  skip-cert-verify: true
-  sni: els2.mangshe.xyz
-  type: hysteria2
-- name: 🇷🇺RU_2|1.3MB/s
-  port: 8120
-  server: 46.148.234.53
-  type: http
-- client-fingerprint: android
-  name: 🇷🇺RU_3|1.1MB/s
-  network: ws
-  port: 443
-  server: ru05.abvpn.ru
-  servername: ru05.abvpn.ru
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  ws-opts:
-    headers:
-      Host: ru05.abvpn.ru
-    path: /websocket

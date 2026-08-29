@@ -117,64 +117,88 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: b21a4d915b94
-  name: 🇩🇪DE_1|1.7MB/s
-  network: grpc
-  port: '8443'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|1.2MB/s
+  network: tcp
+  port: 23147
   reality-opts:
-    public-key: tzOeyllk2VtPXZ_BJ2lOZcGtsnn41ZHBa9dE6s9sFiQ
-    short-id: '!!str c8c75aaf699259b4'
-  server: 159.195.242.180
-  servername: at2.tsumshop.org
+    public-key: Q5olKgn1QNzByW6thPsIA-svXqdzSgyVOSsF9GiTvXI
+    short-id: '!!str 5f5d4386c2c53c'
+  server: 104.105.18.183
+  servername: www.amd.com
   tls: true
   type: vless
   udp: true
-  uuid: 82d145c1-d691-4eef-9de1-9c316db4859a
-  xudp: true
+  uuid: 2cf1f3f4-f949-495f-95d6-7f3f6675c13f
 - alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇩🇪DE_2|1.4MB/s
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.JgBGQxcFxZdwwvHJgyYQ9Qw8ezpz532ZMa6I4XEadAo
+  name: 🇩🇪DE_2|1.0MB/s
   network: ws
-  port: '443'
-  server: 130.185.122.177
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  port: 443
+  server: jaber.speedoraa.ir
+  servername: pas.speedoraa.ir
+  tls: true
+  type: vless
   udp: true
-  uuid: f232d454-b014-4e00-a7ae-430341909db4
+  uuid: be4cecbe-3658-4daf-8c9a-7b00898c7318
   ws-opts:
     headers:
-      Host: 130.185.122.177
+      Host: pas.speedoraa.ir
     path: /
-  xudp: true
-- name: 🇩🇪DE_4|1.1MB/s
-  password: None
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  username: null
-- name: 🇩🇪DE_5|4.3MB/s
-  port: 11000
-  server: 116.202.172.187
-  type: http
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇩🇪DE_6|1.3MB/s
-  network: grpc
-  port: '2054'
-  reality-opts:
-    public-key: ZiTQKF9QGeU4kt3NGbfwDa9n1TQ9l-p4ZhAUx94oQBc
-    short-id: '!!str 46a38b73a4ed4ccd'
-  server: 185.233.104.77
-  servername: www.ibm.com
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.JgBGQxcFxZdwwvHJgyYQ9Qw8ezpz532ZMa6I4XEadAo
+  name: 🇩🇪DE_4|2.4MB/s
+  network: ws
+  port: '443'
+  server: aliconfig.speedoraa.ir
+  servername: pas.speedoraa.ir
   tls: true
   type: vless
   udp: true
-  uuid: 82d145c1-d691-4eef-9de1-9c316db4859a
+  uuid: be4cecbe-3658-4daf-8c9a-7b00898c7318
+  ws-opts:
+    headers:
+      Host: pas.speedoraa.ir
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /
+  xudp: true
+- name: 🇩🇪DE_6|2.2MB/s
+  password: None
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.JgBGQxcFxZdwwvHJgyYQ9Qw8ezpz532ZMa6I4XEadAo
+  name: 🇩🇪DE_7|1.8MB/s
+  network: ws
+  port: '443'
+  server: 172.67.205.187
+  servername: pas.speedoraa.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: be4cecbe-3658-4daf-8c9a-7b00898c7318
+  ws-opts:
+    headers:
+      Host: pas.speedoraa.ir
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /
   xudp: true
